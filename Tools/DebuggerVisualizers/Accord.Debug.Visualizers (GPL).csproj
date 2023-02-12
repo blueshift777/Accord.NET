@@ -171,18 +171,6 @@
     <None Include="Resources\magnifier.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sources\Accord.Controls.Cyotek.ImageBox\Accord.Controls.Cyotek.ImageBox\Accord.Controls.Cyotek.ImageBox.csproj">
-      <Project>{4159c8d3-c18d-4bed-8be6-9bad1b0ca4f6}</Project>
-      <Name>Accord.Controls.Cyotek.ImageBox</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Sources\Accord.Controls.Imaging\Accord.Controls.Imaging.csproj">
-      <Project>{e1089999-eaed-4e55-ac47-b6a196df84fc}</Project>
-      <Name>Accord.Controls.Imaging</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Sources\Accord.Controls.Vision\Accord.Controls.Vision.csproj">
-      <Project>{6158e759-fe2b-4308-ba29-11c9e4a07812}</Project>
-      <Name>Accord.Controls.Vision</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Sources\Accord.Imaging\Accord.Imaging.csproj">
       <Project>{4959a83d-f78f-439e-80a5-41583eceaac6}</Project>
       <Name>Accord.Imaging</Name>

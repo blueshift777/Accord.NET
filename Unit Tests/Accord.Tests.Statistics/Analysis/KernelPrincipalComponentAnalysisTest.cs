@@ -732,7 +732,7 @@ namespace Accord.Tests.Statistics
         }
 
 #if !NO_EXCEL
-        [Test]
+        [Test, Ignore("Must have Excel with OLE")]
         [Category("Office")]
         public void RevertTest2()
         {
@@ -769,7 +769,7 @@ namespace Accord.Tests.Statistics
             Assert.IsTrue(!reversion.HasNaN());
         }
 
-        [Test]
+        [Test, Ignore("Must have Excel with OLE")]
         [Category("Office")]
         public void RevertTest2_new_method()
         {
@@ -809,7 +809,7 @@ namespace Accord.Tests.Statistics
             Assert.IsTrue(!reversion.HasNaN());
         }
 
-        [Test]
+        [Test, Ignore("Must have Excel with OLE")]
         [Category("Office")]
         public void RevertTest3()
         {

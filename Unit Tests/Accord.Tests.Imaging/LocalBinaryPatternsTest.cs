@@ -29,6 +29,7 @@ namespace Accord.Tests.Imaging
     using Accord.DataSets;
     using System.Drawing;
     using System.Linq;
+    using Accord.Tests.Imaging.Properties;
 
     [TestFixture]
     public class LocalBinaryPatternTest
@@ -109,7 +110,7 @@ namespace Accord.Tests.Imaging
             // Let's load an example image, such as Lena,
             // from a standard dataset of example images:
             var images = new TestImages(path: localPath);
-            Bitmap lena = images["lena.bmp"];
+            Bitmap lena = Resources.lena512;
 
             // Create a new Local Binary Pattern with default values:
             var lbp = new LocalBinaryPattern(blockSize: 3, cellSize: 6);
@@ -123,7 +124,7 @@ namespace Accord.Tests.Imaging
 
             Assert.AreEqual(784, descriptors.Count);
             double sum = descriptors.Sum(x => x.Sum());
-            Assert.AreEqual(6094.543992693033, sum, 1e-10);
+            Assert.AreEqual(8991.5294241680585d, sum, 1e-10);
         }
 
 

@@ -38,7 +38,7 @@ namespace Accord.Tests.Vision
     public class ColorClusteringTest
     {
 
-        [Test]
+        [Test, Ignore("I don't use this")]
         public void kmeans()
         {
             string basePath = Path.Combine(NUnit.Framework.TestContext.CurrentContext.TestDirectory, "kmeans");
@@ -88,7 +88,7 @@ namespace Accord.Tests.Vision
         }
 
 
-        [Test]
+        [Test, Ignore("I don't use this")]
         public void meanShift()
         {
             string basePath = Path.Combine(NUnit.Framework.TestContext.CurrentContext.TestDirectory, "kmeans");

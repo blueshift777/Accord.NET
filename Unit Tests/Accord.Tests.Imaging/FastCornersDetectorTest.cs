@@ -46,7 +46,7 @@ namespace Accord.Tests.Imaging
             // Let's load an example image, such as Lena,
             // from a standard dataset of example images:
             var images = new TestImages(path: localPath);
-            Bitmap lena = images["lena.bmp"];
+            Bitmap lena = Properties.Resources.lena512;
 
             // Create FAST with the default parameter values:
             var fast = new FastCornersDetector(threshold: 20);
@@ -58,7 +58,7 @@ namespace Accord.Tests.Imaging
             // as for example, in the Bag-of-Visual-Words approach for classification.
             #endregion
 
-            Assert.AreEqual(1144, descriptors.Count);
+            Assert.AreEqual(1344, descriptors.Count);
         }
 
         [Test]

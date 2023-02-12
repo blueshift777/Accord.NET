@@ -48,7 +48,7 @@ namespace Accord.Tests.Imaging
             // Let's load an example image, such as Lena,
             // from a standard dataset of example images:
             var images = new TestImages(path: localPath);
-            Bitmap lena = images["lena.bmp"];
+            Bitmap lena = Resources.lena512;
 
             // Create a new gray-level cooccurrence matrix using default parameters
             var glcm = new GrayLevelCooccurrenceMatrix(distance: 1, degree: CooccurrenceDegree.Degree0, normalize: true);
@@ -62,10 +62,10 @@ namespace Accord.Tests.Imaging
             double width = matrix.Columns();
             double height = matrix.Rows();
 
-            Assert.AreEqual(1.6659725114535677E-05, mean);
-            Assert.AreEqual(0.00048770834479288511, stdDev);
-            Assert.AreEqual(245, width);
-            Assert.AreEqual(245, height);
+            Assert.AreEqual(1.6524555489460799E-05d, mean);
+            Assert.AreEqual(7.1293715368202931E-05d, stdDev);
+            Assert.AreEqual(246, width);
+            Assert.AreEqual(246, height);
         }
 
         [Test]

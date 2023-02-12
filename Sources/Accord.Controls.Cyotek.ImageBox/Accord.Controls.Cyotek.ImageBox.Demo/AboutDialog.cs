@@ -4,9 +4,6 @@ using System.Drawing;
 using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
-//using CommonMark;
-using Accord.Controls.Cyotek.Demo.Properties;
-//using TheArtOfDev.HtmlRenderer.WinForms;
 
 namespace Accord.Controls.Cyotek.Demo
 {

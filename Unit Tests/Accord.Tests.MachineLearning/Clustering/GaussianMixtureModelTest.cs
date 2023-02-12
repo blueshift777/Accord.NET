@@ -317,7 +317,7 @@ namespace Accord.Tests.MachineLearning
         }
 
 #if !NO_EXCEL
-        [Test]
+        [Test, Ignore("Convert Excel reader to some other store that doesn't require Excel or Office")]
         [Category("Office")]
         public void GaussianMixtureModelTest5()
         {

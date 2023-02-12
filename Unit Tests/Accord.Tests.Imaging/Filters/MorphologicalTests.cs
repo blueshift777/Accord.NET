@@ -52,7 +52,7 @@ namespace Accord.Tests.Imaging
             var test = new TestImages(basePath);
 
             // Let's get Lena's picture
-            Bitmap bmp = test["lena.bmp"];
+            Bitmap bmp = Resources.lena512;
 
             // And transform it to a binary mask 
             // using Niblack's threshold class

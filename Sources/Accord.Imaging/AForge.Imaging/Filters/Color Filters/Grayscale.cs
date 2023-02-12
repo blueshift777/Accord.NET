@@ -69,7 +69,7 @@ namespace Accord.Imaging.Filters
             /// 
             /// <code>
             ///   // apply the filter
-            ///   Bitmap grayImage = Grayscale.CommonAlgorithms.BT709.Apply( image );
+            ///   Bitmap grayImage = Graysca le.CommonAlgorithms.BT709.Apply( image );
             /// </code>
             /// </remarks>
             /// 

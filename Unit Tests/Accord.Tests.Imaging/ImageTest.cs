@@ -37,35 +37,22 @@ namespace Accord.Imaging.Tests
         [Test]
         public void load_true_grayscale_test()
         {
-            string localPath = TestContext.CurrentContext.TestDirectory;
-            var images = new TestImages(path: localPath);
-            Bitmap lena1 = images["lena.bmp"];
             Bitmap lena2 = Accord.Imaging.Image.Clone(Resources.lena512);
 
-            Assert.AreEqual(lena1.Width, lena2.Width);
-            Assert.AreEqual(lena1.Height, lena2.Height);
-
-            Assert.IsTrue(lena1.IsGrayscale());
             Assert.IsTrue(lena2.IsGrayscale());
 
-            int max1 = lena1.Max();
             int max2 = lena2.Max();
 
-            int min1 = lena1.Min();
             int min2 = lena2.Min();
 
-            Assert.AreEqual(244, max1);
             Assert.AreEqual(245, max2);
-            Assert.AreEqual(28, min1);
             Assert.AreEqual(25, min2);
         }
 
         [Test]
         public void test_images_test()
         {
-            string localPath = TestContext.CurrentContext.TestDirectory;
-            var images = new TestImages(path: localPath);
-            Bitmap lena = images["lena.bmp"];
+            Bitmap lena = Resources.lena512;
 
             Assert.IsTrue(lena.IsGrayscale());
         }

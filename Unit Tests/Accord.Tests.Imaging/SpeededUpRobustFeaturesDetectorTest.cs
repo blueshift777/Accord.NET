@@ -63,7 +63,7 @@ namespace Accord.Tests.Imaging
             // Let's load an example image, such as Lena,
             // from a standard dataset of example images:
             var images = new TestImages(path: localPath);
-            Bitmap lena = images["lena.bmp"];
+            Bitmap lena = Resources.lena512;
 
             // Create a new SURF with the default parameter values:
             var surf = new SpeededUpRobustFeaturesDetector(threshold: 0.0002f, octaves: 5, initial: 2);
@@ -78,9 +78,9 @@ namespace Accord.Tests.Imaging
             // as for example, in the Bag-of-Visual-Words approach for classification.
             #endregion
 
-            Assert.AreEqual(523, descriptors.Count);
+            Assert.AreEqual(528, descriptors.Count);
             double sum = features.Sum(x => x.Sum());
-            Assert.AreEqual(2340.9402310500964, sum, 1e-10);
+            Assert.AreEqual(2348.6335477748689d, sum, 1e-10);
         }
 
         [Test]

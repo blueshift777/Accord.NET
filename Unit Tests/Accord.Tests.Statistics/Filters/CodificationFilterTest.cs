@@ -238,7 +238,7 @@ namespace Accord.Tests.Statistics
         }
 
 #if !NO_EXCEL
-        [Test]
+        [Test, Ignore("Must have Excel with OLE")]
         [Category("Office")]
         public void ApplyTest4()
         {

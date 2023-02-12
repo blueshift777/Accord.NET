@@ -19,10 +19,10 @@ namespace Accord.Tests.Math.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Accord.Tests.Math.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Accord.Tests.Math.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Accord.Tests.Math.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] _object {
+        internal static byte[] _object {
             get {
                 object obj = ResourceManager.GetObject("_object", resourceCulture);
                 return ((byte[])(obj));
@@ -73,7 +73,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] a64 {
+        internal static byte[] a64 {
             get {
                 object obj = ResourceManager.GetObject("a64", resourceCulture);
                 return ((byte[])(obj));
@@ -83,7 +83,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] bigsparse {
+        internal static byte[] bigsparse {
             get {
                 object obj = ResourceManager.GetObject("bigsparse", resourceCulture);
                 return ((byte[])(obj));
@@ -93,7 +93,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] cell {
+        internal static byte[] cell {
             get {
                 object obj = ResourceManager.GetObject("cell", resourceCulture);
                 return ((byte[])(obj));
@@ -111,7 +111,7 @@ namespace Accord.Tests.Math.Properties {
         ///0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
         ///0,0,0,1,0,0,0,0,0, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string constraintMatrix11_15 {
+        internal static string constraintMatrix11_15 {
             get {
                 return ResourceManager.GetString("constraintMatrix11_15", resourceCulture);
             }
@@ -125,7 +125,7 @@ namespace Accord.Tests.Math.Properties {
         ///-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
         ///0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string constraintMatrix11_15_2 {
+        internal static string constraintMatrix11_15_2 {
             get {
                 return ResourceManager.GetString("constraintMatrix11_15_2", resourceCulture);
             }
@@ -142,7 +142,7 @@ namespace Accord.Tests.Math.Properties {
         ///0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
         ///0,0,0,1,0,0,0,0,0, [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string constraintMatrix11_15_3 {
+        internal static string constraintMatrix11_15_3 {
             get {
                 return ResourceManager.GetString("constraintMatrix11_15_3", resourceCulture);
             }
@@ -191,7 +191,7 @@ namespace Accord.Tests.Math.Properties {
         ///-1
         ///.
         /// </summary>
-        public static string constraints11_14 {
+        internal static string constraints11_14 {
             get {
                 return ResourceManager.GetString("constraints11_14", resourceCulture);
             }
@@ -242,7 +242,7 @@ namespace Accord.Tests.Math.Properties {
         ///-1
         ///.
         /// </summary>
-        public static string constraints11_14_2 {
+        internal static string constraints11_14_2 {
             get {
                 return ResourceManager.GetString("constraints11_14_2", resourceCulture);
             }
@@ -305,7 +305,7 @@ namespace Accord.Tests.Math.Properties {
         ///-1
         ///.
         /// </summary>
-        public static string constraints11_14_3 {
+        internal static string constraints11_14_3 {
             get {
                 return ResourceManager.GetString("constraints11_14_3", resourceCulture);
             }
@@ -323,7 +323,7 @@ namespace Accord.Tests.Math.Properties {
         ///0.502 0.941 0.949 0.957 0.972 0.988 0.992 1 1.011 
         ///0.506 0.941 0.949 0.9 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string data16 {
+        internal static string data16 {
             get {
                 return ResourceManager.GetString("data16", resourceCulture);
             }
@@ -334,7 +334,7 @@ namespace Accord.Tests.Math.Properties {
         ///0.003102358,0.002543703,0.002650282,0.002833489,0.002651791,0.002761523,0.002947271,0.002423474,0.002671622,0.002643838,0.002676218,0.002655819,0.002312663,0.002289219,0.002358718,0.002689186,0.002831764,0.002592774,0.002657497
         ///0.003410097,0.002650282,0.003073378,0.003114557,0.002914 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string dmatFull {
+        internal static string dmatFull {
             get {
                 return ResourceManager.GetString("dmatFull", resourceCulture);
             }
@@ -343,7 +343,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] int32 {
+        internal static byte[] int32 {
             get {
                 object obj = ResourceManager.GetObject("int32", resourceCulture);
                 return ((byte[])(obj));
@@ -353,7 +353,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] int64 {
+        internal static byte[] int64 {
             get {
                 object obj = ResourceManager.GetObject("int64", resourceCulture);
                 return ((byte[])(obj));
@@ -363,7 +363,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] int8 {
+        internal static byte[] int8 {
             get {
                 object obj = ResourceManager.GetObject("int8", resourceCulture);
                 return ((byte[])(obj));
@@ -373,7 +373,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] java {
+        internal static byte[] java {
             get {
                 object obj = ResourceManager.GetObject("java", resourceCulture);
                 return ((byte[])(obj));
@@ -537,7 +537,7 @@ namespace Accord.Tests.Math.Properties {
         ///8
         ///8        /// [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string labels16 {
+        internal static string labels16 {
             get {
                 return ResourceManager.GetString("labels16", resourceCulture);
             }
@@ -546,7 +546,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] logical {
+        internal static byte[] logical {
             get {
                 object obj = ResourceManager.GetObject("logical", resourceCulture);
                 return ((byte[])(obj));
@@ -556,7 +556,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] matnativedouble {
+        internal static byte[] matnativedouble {
             get {
                 object obj = ResourceManager.GetObject("matnativedouble", resourceCulture);
                 return ((byte[])(obj));
@@ -566,7 +566,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] matnativedouble2 {
+        internal static byte[] matnativedouble2 {
             get {
                 object obj = ResourceManager.GetObject("matnativedouble2", resourceCulture);
                 return ((byte[])(obj));
@@ -576,7 +576,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] nan {
+        internal static byte[] nan {
             get {
                 object obj = ResourceManager.GetObject("nan", resourceCulture);
                 return ((byte[])(obj));
@@ -588,7 +588,7 @@ namespace Accord.Tests.Math.Properties {
         ///0.663830443,0.613805164,0.59302928,0.627847039,0.63108154,0.680978674,0.619350847,0.628988719,0.59320569,0.621934865,0.616526308,0.633357455,0.63160947,0.642610791,0.680130943,0.610564212,0.661177228,0.648673178,0.631154179,0.614853674
         ///0.63031737,0.495849445,0.499450996 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string pseudoInverse1 {
+        internal static string pseudoInverse1 {
             get {
                 return ResourceManager.GetString("pseudoInverse1", resourceCulture);
             }
@@ -597,7 +597,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] simplestruct {
+        internal static byte[] simplestruct {
             get {
                 object obj = ResourceManager.GetObject("simplestruct", resourceCulture);
                 return ((byte[])(obj));
@@ -607,7 +607,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] single {
+        internal static byte[] single {
             get {
                 object obj = ResourceManager.GetObject("single", resourceCulture);
                 return ((byte[])(obj));
@@ -617,7 +617,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] sparse {
+        internal static byte[] sparse {
             get {
                 object obj = ResourceManager.GetObject("sparse", resourceCulture);
                 return ((byte[])(obj));
@@ -627,7 +627,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] uint32 {
+        internal static byte[] uint32 {
             get {
                 object obj = ResourceManager.GetObject("uint32", resourceCulture);
                 return ((byte[])(obj));
@@ -637,7 +637,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] uint64 {
+        internal static byte[] uint64 {
             get {
                 object obj = ResourceManager.GetObject("uint64", resourceCulture);
                 return ((byte[])(obj));
@@ -647,7 +647,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] uint8 {
+        internal static byte[] uint8 {
             get {
                 object obj = ResourceManager.GetObject("uint8", resourceCulture);
                 return ((byte[])(obj));
@@ -664,7 +664,7 @@ namespace Accord.Tests.Math.Properties {
         ///0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
         ///0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string unf_1_constraintMat {
+        internal static string unf_1_constraintMat {
             get {
                 return ResourceManager.GetString("unf_1_constraintMat", resourceCulture);
             }
@@ -674,7 +674,7 @@ namespace Accord.Tests.Math.Properties {
         ///   Looks up a localized string similar to 0,0,0,0,0,0,0,0,0,0,465669.432265165,-40000000
         ///.
         /// </summary>
-        public static string unf_1_constraintValues {
+        internal static string unf_1_constraintValues {
             get {
                 return ResourceManager.GetString("unf_1_constraintValues", resourceCulture);
             }
@@ -683,7 +683,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized string similar to -842.518391849212,-488.219381897471,-190.491736876565,-186.907180907253,-88.573727999289,-72.8163617663375,-56.0230847324956,-39.7430339089597,-27.0855686809237,-21.4647055129153,-0.115540704378476,-0.349068317072662,-0.577422801256726,-0.804382016952285,-1.02956006691747,-4.87311899182541,-5.67624053425528,-6.47041221362809,-7.24022664271635,-7.99801332612495,-0.441400863323973,-0.909270405717938,-1.40164941495127,-1.91514568013197,-2.44974982103197,-8.08364585878164,-9.61279495811294,-11.2052253164321,-12 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string unf_1_linTerms {
+        internal static string unf_1_linTerms {
             get {
                 return ResourceManager.GetString("unf_1_linTerms", resourceCulture);
             }
@@ -692,7 +692,7 @@ namespace Accord.Tests.Math.Properties {
         /// <summary>
         ///   Looks up a localized string similar to 0.000425982528487717,-1.30859921184782E-05,3.540886544383E-07,3.19408906899178E-05,4.99246203983784E-08,1.15225834218077E-07,4.19040197567661E-08,2.38160563285809E-08,1.129338173272E-08,1.5384045991757E-08,-6.89318827239171E-09,-2.0825505976031E-08,-3.44491934963131E-08,-4.79896389381127E-08,-6.14238195722856E-08,1.00789083786742E-08,1.06117549160358E-08,1.11387348781526E-08,1.1655341183062E-08,1.21691807261004E-08,2.1523266102491E-10,4.43371785773401E-10,6.83462037505227E-10,9.33849331152353E-10,1.19452909 [rest of string was truncated]&quot;;.
         /// </summary>
-        public static string unf_1_quadTerms {
+        internal static string unf_1_quadTerms {
             get {
                 return ResourceManager.GetString("unf_1_quadTerms", resourceCulture);
             }

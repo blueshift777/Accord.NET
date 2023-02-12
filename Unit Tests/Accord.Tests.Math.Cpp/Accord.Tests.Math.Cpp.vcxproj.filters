@@ -122,6 +122,7 @@
   <ItemGroup>
     <None Include="Lbfgsb3\License.txt" />
     <None Include="Accord.snk" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\libf2c.lib" />

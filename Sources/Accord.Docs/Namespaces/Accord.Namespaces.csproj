@@ -88,22 +88,6 @@
       <Project>{cdbefb1a-10bc-49ec-9833-d2cf6d4f6131}</Project>
       <Name>Accord.Audition</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Controls.Audio\Accord.Controls.Audio.csproj">
-      <Project>{e0b826ac-2a51-41ec-9f09-561ca14a82bb}</Project>
-      <Name>Accord.Controls.Audio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Controls.Imaging\Accord.Controls.Imaging.csproj">
-      <Project>{e1089999-eaed-4e55-ac47-b6a196df84fc}</Project>
-      <Name>Accord.Controls.Imaging</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Controls.Vision\Accord.Controls.Vision.csproj">
-      <Project>{6158e759-fe2b-4308-ba29-11c9e4a07812}</Project>
-      <Name>Accord.Controls.Vision</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Controls\Accord.Controls.csproj">
-      <Project>{0ab27a20-925c-4556-9fa4-6e2c109e448e}</Project>
-      <Name>Accord.Controls</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Accord.Core\Accord.Core.csproj">
       <Project>{a177a90c-8207-466a-af70-f2b8452a42ac}</Project>
       <Name>Accord.Core</Name>
@@ -136,10 +120,6 @@
       <Project>{f718e9a8-db62-4785-8c49-4333a60d256a}</Project>
       <Name>Accord.Math</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Neuro\Accord.Neuro.csproj">
-      <Project>{179f3045-8757-4f4b-9508-f48327ba11e3}</Project>
-      <Name>Accord.Neuro</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Accord.Statistics\Accord.Statistics.csproj">
       <Project>{fd8101dd-c95d-42d6-ad44-ae01c25f2811}</Project>
       <Name>Accord.Statistics</Name>
@@ -151,14 +131,6 @@
     <ProjectReference Include="..\..\Accord.Video.Kinect\Accord.Video.Kinect.csproj">
       <Project>{9da8e727-4038-4e6b-90bd-853730fdfa49}</Project>
       <Name>Accord.Video.Kinect</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Video.VFW\Accord.Video.VFW.csproj">
-      <Project>{22e852c0-17ff-4106-9df6-41eabb8c0613}</Project>
-      <Name>Accord.Video.VFW</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Accord.Video.Ximea\Accord.Video.Ximea.csproj">
-      <Project>{aedd6cfb-747b-4077-9288-9cd2a86090f1}</Project>
-      <Name>Accord.Video.Ximea</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Accord.Video\Accord.Video.csproj">
       <Project>{809725dc-6502-4732-a51c-deb7fea12975}</Project>

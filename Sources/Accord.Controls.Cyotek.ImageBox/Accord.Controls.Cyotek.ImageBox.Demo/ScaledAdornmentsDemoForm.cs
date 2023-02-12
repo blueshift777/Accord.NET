@@ -1,10 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using Accord.Controls.Cyotek.Demo.Properties;
 
 namespace Accord.Controls.Cyotek.Demo
 {

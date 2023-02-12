@@ -1,4 +1,4 @@
-﻿// Cyotek ImageBox
+// Cyotek ImageBox
 // Copyright (c) 2010-2017 Cyotek Ltd.
 // http://cyotek.com
 // http://cyotek.com/blog/tag/imagebox
@@ -10,7 +10,6 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Accord.Controls.Cyotek.Demo.Properties;
 
 // demonstration was derived based on the following forum post
 // https://forums.cyotek.com/imagebox/problem-when-trying-to-create-a-minimap-using-imagebox/

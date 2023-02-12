@@ -112,10 +112,6 @@
       <Project>{F718E9A8-DB62-4785-8C49-4333A60D256A}</Project>
       <Name>Accord.Math</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Sources\Accord.Neuro\Accord.Neuro.csproj">
-      <Project>{179F3045-8757-4F4B-9508-F48327BA11E3}</Project>
-      <Name>Accord.Neuro</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Sources\Accord.Statistics\Accord.Statistics.csproj">
       <Project>{FD8101DD-C95D-42D6-AD44-AE01C25F2811}</Project>
       <Name>Accord.Statistics</Name>

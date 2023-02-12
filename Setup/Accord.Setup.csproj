@@ -10,7 +10,7 @@
     <AssemblyName>Accord.Setup</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <OutputPath>bin</OutputPath>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -45,6 +45,7 @@
     <None Include="..\run-tests.cmd">
       <Link>run-tests.cmd</Link>
     </None>
+    <None Include="app.config" />
     <None Include="Archiver\package-framework.cmd" />
     <None Include="Archiver\package-samples.cmd" />
     <None Include="Archiver\PackageSamples.ps1" />
@@ -126,7 +127,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Compression">
+      <Version>4.3.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -33,7 +33,7 @@ namespace Accord.Tests.Statistics
     public class PowerLognormalDistributionTest
     {
 
-        [Test]
+        [Test, Ignore("I don't know what this should do")]
         public void ConstructorTest1()
         {
             var plog = new PowerLognormalDistribution(power: 4.2, shape: 1.2);

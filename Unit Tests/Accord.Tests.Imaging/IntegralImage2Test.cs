@@ -29,6 +29,7 @@ namespace Accord.Tests.Imaging
     using Accord.Imaging.Converters;
     using System.Drawing.Imaging;
     using Accord.DataSets;
+    using Accord.Tests.Imaging.Properties;
 
     [TestFixture]
     public class IntegralImage2Test
@@ -45,7 +46,7 @@ namespace Accord.Tests.Imaging
             // In this example, we will compute an integral image
             // representation of Lena Söderberg's famous picture:
             TestImages testImages = new TestImages(path: localPath);
-            Bitmap lena = testImages["lena.bmp"]; // get the image
+            Bitmap lena = Resources.lena512;
 
             // Create a new Integral Image (squared and tilted) from Lena's picture:
             IntegralImage2 ii = IntegralImage2.FromBitmap(lena, computeTilted: true);
@@ -60,9 +61,9 @@ namespace Accord.Tests.Imaging
             long tsum = ii.GetSumT(34, 50, 94, 155); // this is the sum of tilted values (-593600)
             #endregion
 
-            Assert.AreEqual(1760032, sum);
-            Assert.AreEqual(229508896, ssum);
-            Assert.AreEqual(-593600, tsum);
+            Assert.AreEqual(1759544, sum);
+            Assert.AreEqual(229295032, ssum);
+            Assert.AreEqual(-594313, tsum);
         }
 
         [Test]

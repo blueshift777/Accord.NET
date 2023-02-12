@@ -10,7 +10,7 @@
     <RootNamespace>Accord.Tests.Math.FSharp</RootNamespace>
     <AssemblyName>Accord.Tests.Math.FSharp</AssemblyName>
     <Name>Accord.Tests.Math.FSharp</Name>
-	<OutputPath>bin\$(Configuration)\$(Platform)</OutputPath>
+    <OutputPath>bin\$(Configuration)\$(Platform)</OutputPath>
     <TargetFrameworkProfile />
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -21,7 +21,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'net35|AnyCPU' ">
