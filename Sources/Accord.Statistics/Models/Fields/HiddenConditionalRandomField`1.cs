@@ -481,59 +481,6 @@ namespace Accord.Statistics.Models.Fields
             return logLikelihoods;
         }
 
-#if !NETSTANDARD1_4
-        /// <summary>
-        ///   Saves the random field to a stream.
-        /// </summary>
-        /// 
-        /// <param name="stream">The stream to which the random field is to be serialized.</param>
-        /// 
-        [Obsolete("Please use Accord.IO.Serializer.Save() instead.")]
-        public void Save(Stream stream)
-        {
-            Accord.IO.Serializer.Save(this, stream);
-        }
-
-        /// <summary>
-        ///   Saves the random field to a stream.
-        /// </summary>
-        /// 
-        /// <param name="path">The stream to which the random field is to be serialized.</param>
-        /// 
-        [Obsolete("Please use Accord.IO.Serializer.Save() instead.")]
-        public void Save(string path)
-        {
-            Accord.IO.Serializer.Save(this, path);
-        }
-
-        /// <summary>
-        ///   Loads a random field from a stream.
-        /// </summary>
-        /// 
-        /// <param name="stream">The stream from which the random field is to be deserialized.</param>
-        /// 
-        /// <returns>The deserialized random field.</returns>
-        /// 
-        [Obsolete("Please use Accord.IO.Serializer.Load<HiddenConditionalRandomField<T>>() instead.")]
-        public static HiddenConditionalRandomField<T> Load(Stream stream)
-        {
-            return Accord.IO.Serializer.Load<HiddenConditionalRandomField<T>>(stream);
-        }
-
-        /// <summary>
-        ///   Loads a random field from a file.
-        /// </summary>
-        /// 
-        /// <param name="path">The path to the file from which the random field is to be deserialized.</param>
-        /// 
-        /// <returns>The deserialized random field.</returns>
-        /// 
-        [Obsolete("Please use Accord.IO.Serializer.Load<HiddenConditionalRandomField<T>>() instead.")]
-        public static HiddenConditionalRandomField<T> Load(string path)
-        {
-            return Accord.IO.Serializer.Load<HiddenConditionalRandomField<T>>(path);
-        }
-#endif
 
 #region ICloneable Members
 

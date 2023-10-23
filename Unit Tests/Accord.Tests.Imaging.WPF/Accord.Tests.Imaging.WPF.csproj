@@ -74,10 +74,6 @@
       <Project>{A177A90C-8207-466A-AF70-F2B8452A42AC}</Project>
       <Name>Accord.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Sources\Accord.Imaging.WPF\Accord.Imaging.WPF.csproj">
-      <Project>{6d8411ce-faa2-4893-ab9b-e4a433e62991}</Project>
-      <Name>Accord.Imaging.WPF</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Sources\Accord.Imaging\Accord.Imaging.csproj">
       <Project>{4959A83D-F78F-439E-80A5-41583ECEAAC6}</Project>
       <Name>Accord.Imaging</Name>

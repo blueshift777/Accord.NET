@@ -342,21 +342,6 @@ namespace Accord
                 BindingFlags.GetField, null, reader, null, CultureInfo.InvariantCulture);
         }
 
-        /// <summary>
-        ///   Deserializes the specified stream into an object graph, but locates
-        ///   types by searching all loaded assemblies and ignoring their versions.
-        /// </summary>
-        /// 
-        /// <param name="formatter">The binary formatter.</param>
-        /// <param name="stream">The stream from which to deserialize the object graph.</param>
-        /// 
-        /// <returns>The top (root) of the object graph.</returns>
-        /// 
-        [Obsolete("Please use Accord.IO.Serializer.Load<T>() instead.")]
-        public static T DeserializeAnyVersion<T>(this BinaryFormatter formatter, Stream stream)
-        {
-            return Serializer.Load<T>(stream);
-        }
 #endif
 
         /// <summary>
@@ -667,7 +652,7 @@ namespace Accord
 #endif
 
         // TODO: Move this method to a more appropriate location
-        internal static WebClient NewWebClient()
+        public static WebClient NewWebClient()
         {
             var webClient = new WebClient();
             webClient.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) (Accord.NET Framework)");

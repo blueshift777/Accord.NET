@@ -188,7 +188,7 @@ namespace Accord.Imaging.Converters
                 {
                     for (int x = 0; x < Width; x++, src++, dst++)
                     {
-                        *dst = (byte)Vector.Scale(input[src], Min, Max, 0, 255);
+                        *dst = (byte)Accord.Math.Vector.Scale(input[src], Min, Max, 0, 255);
                     }
                     dst += offset;
                 }
@@ -224,7 +224,7 @@ namespace Accord.Imaging.Converters
                 {
                     for (int x = 0; x < Width; x++, src++, dst++)
                     {
-                        *dst = (byte)Vector.Scale(input[src], min, max, 0, 255);
+                        *dst = (byte)Accord.Math.Vector.Scale(input[src], min, max, 0, 255);
                     }
                     dst += offset;
                 }
@@ -361,7 +361,7 @@ namespace Accord.Imaging.Converters
                     {
                         for (int c = channels - 1; c >= 0; c--, dst++)
                         {
-                            *dst = (byte)Vector.Scale(input[src][c], Min, Max, (byte)0, (byte)255);
+                            *dst = (byte)Accord.Math.Vector.Scale(input[src][c], Min, Max, (byte)0, (byte)255);
                         }
                     }
                     dst += offset;
@@ -423,7 +423,7 @@ namespace Accord.Imaging.Converters
                     {
                         for (int c = channels - 1; c >= 0; c--, dst++)
                         {
-                            *dst = (byte)Vector.Scale(input[src][c], min, max, (byte)0, (byte)255);
+                            *dst = (byte)Accord.Math.Vector.Scale(input[src][c], min, max, (byte)0, (byte)255);
                         }
                     }
                     dst += offset;

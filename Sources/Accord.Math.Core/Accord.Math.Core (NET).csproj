@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accord.Core\Accord.Core (NET).csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net48;net47;net462</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefaultItemExcludes>Properties/**;$(DefaultItemExcludes)</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+</Project>

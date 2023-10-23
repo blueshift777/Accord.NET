@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -11,6 +11,10 @@
   <PropertyGroup>
     <DefaultItemExcludes>Properties\**;$(DefaultItemExcludes)</DefaultItemExcludes>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="Serializer.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.1" />

@@ -707,63 +707,6 @@ namespace Accord.Statistics.Analysis
         {
             min = max = 0;
         }
-
-
-        /// <summary>
-        ///   Saves the curve to a stream.
-        /// </summary>
-        /// 
-        /// <param name="stream">The stream to which the curve is to be serialized.</param>
-        /// 
-        public void Save(Stream stream)
-        {
-            BinaryFormatter b = new BinaryFormatter();
-            b.Serialize(stream, this);
-        }
-
-        /// <summary>
-        ///   Loads a curve from a stream.
-        /// </summary>
-        /// 
-        /// <param name="stream">The stream from which the curve is to be deserialized.</param>
-        /// 
-        /// <returns>The deserialized curve.</returns>
-        /// 
-        public static ReceiverOperatingCharacteristic Load(Stream stream)
-        {
-            BinaryFormatter b = new BinaryFormatter();
-            return (ReceiverOperatingCharacteristic)b.Deserialize(stream);
-        }
-
-        /// <summary>
-        ///   Loads a curve from a file.
-        /// </summary>
-        /// 
-        /// <param name="path">The path to the file from which the curve is to be deserialized.</param>
-        /// 
-        /// <returns>The deserialized curve.</returns>
-        /// 
-        public static ReceiverOperatingCharacteristic Load(string path)
-        {
-            using (FileStream fs = new FileStream(path, FileMode.Open))
-            {
-                return Load(fs);
-            }
-        }
-
-        /// <summary>
-        ///   Saves the curve to a stream.
-        /// </summary>
-        /// 
-        /// <param name="path">The path to the file to which the curve is to be serialized.</param>
-        /// 
-        public void Save(String path)
-        {
-            using (FileStream fs = new FileStream(path, FileMode.Create))
-            {
-                Save(fs);
-            }
-        }
     }
 
 

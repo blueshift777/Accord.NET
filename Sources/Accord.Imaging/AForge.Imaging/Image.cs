@@ -575,7 +575,7 @@ namespace Accord.Imaging
 
                 Console.WriteLine("Downloading {0}", url);
                 using (var client = ExtensionMethods.NewWebClient())
-                    client.DownloadFileWithRetry(url, downloadedFileName);
+                    client.DownloadFile(url, downloadedFileName);
             }
 
             return FromFile(downloadedFileName);
